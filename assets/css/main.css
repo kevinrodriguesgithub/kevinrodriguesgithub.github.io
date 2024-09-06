@@ -392,6 +392,67 @@ h6 {
   bottom: 15px;
 }
 
+/*  */
+#skills {
+  background-color: #f4f4f9;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#skills h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.skill-category {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  transition: transform 0.3s ease;
+}
+
+.skill-category:hover {
+  transform: translateY(-10px);
+}
+
+.skill-category h3 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  color: #007acc;
+}
+
+.skill-category ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skill-category ul li {
+  font-size: 1.1em;
+  margin: 10px 0;
+  color: #555;
+  text-align: left;
+}
+
+.skill-category ul li::before {
+  content: "•";
+  color: #007acc;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
